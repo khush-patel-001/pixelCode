@@ -1,8 +1,13 @@
-# React + Vite
+# pixelCode
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+pixelCode - Online Code Editor
+pixelCode is a powerful online code editor that supports multiple programming languages. It includes a dedicated frontend editor for HTML, CSS, and JavaScript, allowing users to design and develop seamlessly in one place.
 
-Currently, two official plugins are available:
+https://khush-patel-001.github.io/pixelCode/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Key Features:
+1. Multi-language support for diverse coding needs
+2. Integrated frontend editor (HTML, CSS, JavaScript)
+3. Built with modern technologies like React and Tailwind CSS
+
+This project leverages the simplicity of HTML, CSS, and JavaScript combined with the flexibility of React and the utility-first styling of Tailwind CSS to deliver an efficient coding experience.
