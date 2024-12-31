@@ -8,7 +8,7 @@ import { Routes, Route, HashRouter } from "react-router-dom";
 function App() {
   return (
     <>
-      <HashRouter basename={import.meta.env.BASE_URL}>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
