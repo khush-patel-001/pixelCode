@@ -9,7 +9,7 @@ window.process = window.process || { env: { PUBLIC_URL: "" } };
 function App() {
   return (
     <>
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
