@@ -4,12 +4,12 @@ import About from "./Pages/About/About";
 import ContactPage from "./Pages/ContactPage/ContactPage";
 import CodeEditor from "./Pages/CodeEditor/CodeEditor";
 import FrontendEditor from "./Pages/FrontendEditor/FrontendEditor";
-import { Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 window.process = window.process || { env: { PUBLIC_URL: "" } };
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -17,7 +17,7 @@ function App() {
           <Route path="/frontend-editor" element={<FrontendEditor />} />
           <Route path="/editor" element={<CodeEditor />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
