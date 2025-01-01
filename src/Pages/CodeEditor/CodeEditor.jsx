@@ -119,6 +119,7 @@ const CodeEditor = () => {
             >
               {languages.map(([key, language]) => (
                 <option
+                  key={key}
                   value={language}
                   className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-[#161616] rounded-md"
                 >

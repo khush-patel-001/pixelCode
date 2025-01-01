@@ -48,7 +48,7 @@ const ContactPage = () => {
           <form className="space-y-8" onSubmit={handleSubmit}>
             <div>
               <label
-                for="email"
+                htmlFor="email"
                 className="block mb-2 text-sm font-medium text-gray-300"
               >
                 Your email
@@ -63,7 +63,7 @@ const ContactPage = () => {
             </div>
             <div>
               <label
-                for="subject"
+                htmlFor="subject"
                 className="block mb-2 text-sm font-medium text-gray-300"
               >
                 Subject
@@ -78,7 +78,7 @@ const ContactPage = () => {
             </div>
             <div className="sm:col-span-2">
               <label
-                for="message"
+                htmlFor="message"
                 className="block mb-2 text-sm font-medium text-gray-300"
               >
                 Your message

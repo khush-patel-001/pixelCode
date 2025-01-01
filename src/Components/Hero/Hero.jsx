@@ -67,6 +67,7 @@ const Hero = () => {
           <div className="flex items-center justify-center gap-4 sm:gap-7 max-w-[60rem] flex-wrap">
             {languages.map(([language, nickLanguage]) => (
               <Link
+                key={language}
                 to={`/editor?language=${language}`}
                 className="border-solid border-2 border-gray-700 bg-[#161616] rounded-2xl px-6 py-4 flex items-center justify-between w-40 sm:w-52 hover:border-gray-300 transition-all hover:scale-105"
               >
